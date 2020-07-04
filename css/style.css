@@ -1,0 +1,261 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    background: #f9f9f9;
+    color: #3a3a3a;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/* Envolve tudo */
+.container {
+    width: 100%;
+}
+
+/* Centraliza os conteúdos */
+.content-center {
+    max-width: 1000px;
+    margin: 0 auto; 
+}
+
+/* HEADER */
+header {
+    background: #fff;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 0 7px 0;
+}
+
+header nav img{
+    height: 60px;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 10px;
+}
+
+header nav ul li a {
+    display: block;
+    padding: 8px 12px;
+    color: #3a3a3a;
+    border-radius: 3px;
+    border: 1px solid rgba(0,0,0,0.7);
+    text-decoration:none;
+}
+
+header nav ul li a:hover {
+    background: rgba(0,0,0,0.2);
+}
+
+/* Banner */
+.content-banner {
+    background-image: url('../img/img-fundo.jpg');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-content-banner {
+    text-align: center;
+}
+
+.content-banner h1 {
+    background: rgba(0,0,0,0.5);
+    font-weight: bold;
+    font-size: 70px;
+    color: #fff;
+    padding: 15px 60px;
+}
+
+.content-banner span {
+    background: red;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    background: rgba(0,0,0,0.5);
+    padding: 10px 50px;
+}
+
+/* ABOUT ME */
+.content-aboutme{
+    background: #ECECEC;
+    padding: 80px 0 80px 0;
+}
+
+.custom-content-aboutme {
+    display: flex;
+}
+
+.custom-content-aboutme img {
+    width: 40%;
+    border-radius: 20px;
+}
+
+.custom-content-aboutme div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    text-align: center;
+}
+
+.custom-content-aboutme div h1 {
+    margin: 0px;
+}
+
+.custom-content-aboutme div p {
+    margin: 0px;
+    text-align: center;
+}
+
+
+/*SERVICES*/
+.content-services{
+    padding: 60px 0 60px 0;
+}
+
+.description-services {
+    text-align: center;
+    padding: 0 40px 0 40px;
+}
+
+.services-items {
+    padding: 20px 10px 0 10px;
+}
+
+.services-items ul {
+    display: flex;
+}
+
+.services-items ul li div:nth-child(1) {
+    background: #A52A2A;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 35px;
+    border-radius: 100%;
+}
+
+
+.services-items ul li div:nth-child(2) {
+   text-align: center;
+   padding: 0 10px 0 10px;
+}
+
+/* CONTACT */
+.content-contact {
+    background: #3D74A0;
+    padding: 80px 0px;
+}
+
+.custom-contact-form{
+    padding: 15px;
+}
+
+.custom-contact-form h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.custom-contact-form form {
+    width: 600px;
+    margin: 0 auto;
+    background: rgba(0,0,0,0.4);
+    background: rgba(0,0,0,0.2);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: right;
+}
+
+.custom-contact-form form div {
+    width: 100%;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.custom-contact-form form div label {
+    color: #fff;
+}
+
+.custom-contact-form form div input,
+.custom-contact-form form div textarea {
+    height: 30px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+}
+
+.custom-contact-form form div textarea {
+    height: 80px;
+}
+
+.custom-contact-form form button {
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 12px 35px;
+    color: #fff;    
+    cursor: pointer;
+    transition: .5s background;
+}
+
+.custom-contact-form form button:hover{
+    background: #fff;
+    color: #3D74A0
+}
+
+/* FOOTER */
+footer {
+    background: #f9f9f9;
+    padding: 30px 0px;
+}
+
+.custom-content-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.custom-content-footer img {
+    height: 60px;
+}
+
+.custom-content-footer ul {
+    display: flex;
+}
+
+.custom-content-footer ul li{
+    margin-left: 10px;
+}
+
+.custom-content-footer ul li a {
+    color: #3a3a3a;
+    font-size: 20px;
+}
+
+.custom-content-footer ul li a:hover {
+    color: #3D74A0;
+} 
