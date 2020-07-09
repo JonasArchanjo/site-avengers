@@ -1,0 +1,68 @@
+@media all and (max-width: 992px) {
+    .nav-web {
+        display: none;
+    }
+
+    .nav-mobile {
+        display: flex;
+    }
+
+    .nav-mobile button {
+        padding: 5px 10px;
+        background: transparent;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .nav-mobile button:hover{
+        background: #f9f9f9;
+    }
+
+    /* ABOUT ME */
+    .content-aboutme{
+        padding: 20px 15px;
+    }
+
+    .custom-content-aboutme {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .custom-content-aboutme img {
+        width: 70%;
+        margin-bottom: 40px;
+    }
+
+    .custom-content-aboutme div {
+        padding: 20px 0;
+    }
+
+    /* SERVICES */
+    .content-services {
+        padding: 40px 15px 10px 15px;
+    }
+
+    .services-items ul {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .services-items ul li {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    /* CONTACT */
+    .content-contact {
+        padding: 40px 15px ;
+    }
+
+    .custom-contact-form {
+        padding: 0;
+    }
+
+    /* FOOTER */
+    footer {
+        padding: 10px 15px;
+    }
+}

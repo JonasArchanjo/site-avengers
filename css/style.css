@@ -18,7 +18,7 @@ ul{
 
 /* Centraliza os conteúdos */
 .content-center {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto; 
 }
 
@@ -37,7 +37,7 @@ header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 7px 0 7px 0;
+    padding: 7px 15px 7px 15px;
 }
 
 header nav img{
@@ -63,6 +63,10 @@ header nav ul li a {
 
 header nav ul li a:hover {
     background: rgba(0,0,0,0.2);
+}
+
+.nav-mobile {
+    display: none;
 }
 
 /* Banner */
@@ -101,7 +105,7 @@ header nav ul li a:hover {
 /* ABOUT ME */
 .content-aboutme{
     background: #ECECEC;
-    padding: 80px 0 80px 0;
+    padding: 80px 15px 80px 15px;
 }
 
 .custom-content-aboutme {
@@ -237,7 +241,7 @@ header nav ul li a:hover {
 /* FOOTER */
 footer {
     background: #f9f9f9;
-    padding: 30px 0px;
+    padding: 30px 15px;
 }
 
 .custom-content-footer{
