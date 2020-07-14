@@ -8,7 +8,12 @@ html,body{
 
 ul{
     list-style-type: none;
+    padding: 0;
 }
+
+a {
+    text-decoration: none;
+    }
 
 /* Envolve tudo */
 .container {
@@ -20,6 +25,59 @@ ul{
 .content-center {
     max-width: 1200px;
     margin: 0 auto; 
+}
+
+/* MENU MOBILE */
+.content-menu-mobile {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.9);
+    color: #ffffff;
+    padding: 15px;
+    box-sizing: border-box;
+    display: none;
+}
+
+.content-menu-mobile div {
+    text-align: right;
+}
+
+.content-menu-mobile div button {
+    border: 0;
+    background: transparent;
+    color: #fff;
+    font-size: 30px;
+}
+
+.content-menu-mobile div button:hover {
+    color: red;
+}
+
+.content-menu-mobile ul {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-menu-mobile ul li {
+    width: 100%;
+    text-align: center;
+    padding: 25px 0px;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+.content-menu-mobile ul li:hover {
+    border-bottom: 1px solid red;
+}
+
+.content-menu-mobile ul li a {
+    font-size: 20px;
+    cursor: pointer;
+    color: #fff;
 }
 
 /* HEADER */
@@ -38,6 +96,7 @@ header nav {
     justify-content: space-between;
     align-items: center;
     padding: 7px 15px 7px 15px;
+    box-sizing: border-box;
 }
 
 header nav img{
@@ -106,6 +165,7 @@ header nav ul li a:hover {
 .content-aboutme{
     background: #ECECEC;
     padding: 80px 15px 80px 15px;
+    box-sizing: border-box;
 }
 
 .custom-content-aboutme {
@@ -144,6 +204,7 @@ header nav ul li a:hover {
 .description-services {
     text-align: center;
     padding: 0 40px 0 40px;
+    box-sizing: border-box;
 }
 
 .services-items {
@@ -152,6 +213,7 @@ header nav ul li a:hover {
 
 .services-items ul {
     display: flex;
+    box-sizing: border-box;
 }
 
 .services-items ul li div:nth-child(1) {
@@ -181,6 +243,7 @@ header nav ul li a:hover {
 
 .custom-contact-form{
     padding: 15px;
+    box-sizing: border-box;
 }
 
 .custom-contact-form h1 {
@@ -189,11 +252,12 @@ header nav ul li a:hover {
 }
 
 .custom-contact-form form {
-    width: 600px;
+    max-width: 600px;
     margin: 0 auto;
     background: rgba(0,0,0,0.4);
     background: rgba(0,0,0,0.2);
     padding: 30px;
+    box-sizing: border-box;
     border-radius: 10px;
     text-align: right;
 }
@@ -216,6 +280,7 @@ header nav ul li a:hover {
     border: 1px solid #fff;
     border-radius: 5px;
     padding: 5px;
+    box-sizing: border-box;
     outline: none;
 }
 
@@ -242,6 +307,7 @@ header nav ul li a:hover {
 footer {
     background: #f9f9f9;
     padding: 30px 15px;
+    box-sizing: border-box;
 }
 
 .custom-content-footer{

@@ -1,3 +1,7 @@
 @media all and (max-width: 768px) {
-
+    /* About me */
+    .custom-content-aboutme img {
+        width: 80%;
+        margin-bottom: 40px;
+    }
 }

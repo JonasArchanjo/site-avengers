@@ -1,3 +1,72 @@
 @media all and (max-width: 576px) {
+    html,body{
+        font-size: 16px;
+    }
 
+    /* Banner */
+    .content-banner h1 {
+        font-size: 30px;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+
+    .content-banner span {
+        display: block;
+        font-size: 30px;
+        padding: 5px;
+        box-sizing: border-box;
+        font-size: 15px;
+    }
+
+    /* ABOUT ME */
+    .custom-content-aboutme div h1 {
+        font-size: 26px;
+    }
+
+    .custom-content-aboutme img {
+        width: 100%;
+    }
+
+    /* SERVICES */
+    .services-items ul li {
+        width: 100%;
+    }
+
+    .description-services {
+        padding: 0;
+    }
+
+    .services-items ul li div:nth-child(1) {
+        width: 150px;
+        height: 150px;
+        font-size: 45px;
+    }
+
+    /* CONTACT */
+    .content-contact {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .custom-contact-form form {
+        padding: 15px;
+    }
+
+    .custom-contact-form h1 {
+        padding: 0 15px 0 15px;
+        box-sizing: border-box;
+    }
+
+    .custom-contact-form form button {
+        width: 100%;
+    }
+
+    /* FOOTER */
+    .custom-content-footer ul li{
+        margin-left: 15px;
+    }
+    
+    .custom-content-footer ul li a {
+        font-size: 25px;
+    }
 }

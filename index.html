@@ -14,6 +14,30 @@
 </head>
 <body>
     <main class="container">
+
+        <section class="content-menu-mobile">
+            <div>
+                <button onclick="closeMenuMobile()"> 
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <ul>
+                <li>
+                    <a onclick="closeMenuMobile()" href="#home">Home</a>
+                </li>
+                <li>
+                    <a onclick="closeMenuMobile()" href="#aboutme">About me</a>
+                </li>
+                <li>
+                    <a onclick="closeMenuMobile()" href="#services">Services</a>
+                </li>
+                <li>
+                    <a onclick="closeMenuMobile()" href="#contact">Contact</a>
+                </li>
+            </ul>
+
+        </section>
+
         <!-- Header -->
         <Header>
 
@@ -22,16 +46,16 @@
                 <img src="./img/logo.png" alt="Logotipo do site">
                 <ul>
                     <li>
-                        <a href="#">Home</a>
+                        <a href="#home">Home</a>
                     </li>
                     <li>
                         <a href="#aboutme">About me</a>
                     </li>
                     <li>
-                        <a href="#">Services</a>
+                        <a href="#services">Services</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="#contact">Contact</a>
                     </li>
                 </ul>
             </nav>
@@ -39,14 +63,14 @@
             <!-- MENU MOBILE -->
             <nav class="content-center nav-mobile">
                 <img src="./img/logo.png" alt="Logotipo do site">
-                <button>
+                <button onclick="showMenuMobile()">
                     <i class="fas fa-bars"></i>
                 </button>
             </nav>
         </header>
 
         <!-- Banner -->
-        <section class="content-banner">
+        <section id="home" class="content-banner">
             <div class="content-center custom-content-banner">
                 <h1>AVENGERS AO ATAQUE</h1>
                 <span>
@@ -69,7 +93,7 @@
         </section>
         
         <!-- Services -->
-        <section class="content-services">
+        <section id="services" class="content-services">
             <div class="content-center custom-content-services">
                 <div class="description-services">
                     <h1>Titulo do serviço</h1>
@@ -119,7 +143,7 @@
         </section>
 
        <!-- Contact -->
-        <section class="content-contact">
+        <section id="contact" class="content-contact">
             <div class="content-center custom-contact-form">
                 <h1>Contate os Avengers e salve o mundo :)</h1>
                 <form action="">
@@ -177,5 +201,8 @@
             </div>
         </footer>
     </main>
+
+    <script src="./js/index.js"></script>
+
 </body>
 </html>
